@@ -1,0 +1,246 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+body{
+  background-image: url(../img/trees.png);
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 100px ;
+  background-color:#fff;
+}
+.logo img{
+  width: 50px;
+  
+}
+.navigation{
+  text-align: center;
+}
+.navigation a{
+  color: #2b2b2a;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 900;
+  padding: 10px;
+  display: inline-block;
+  transition: color 1s;
+}
+
+.navigation a:hover{
+  color:#F66B0E;
+}
+#log{
+  font-weight: 900;
+}
+#log a{
+  text-decoration: none;
+  transition: color 1s;
+  color:#2b2b2a;
+}
+#log a:hover{
+  color:#F66B0E;
+}
+.google{
+  border: none ;
+  border-radius: 5px;
+  padding: 5px;
+}
+.signup{
+  padding: 150px 0;
+}
+.container {
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: #ec7513;
+  padding: 15px;
+  width: 25%;
+  margin: auto;
+  margin-top: 15px;   
+}
+.fillin{
+
+  margin-left: 25px;
+}
+.reg{
+
+  color: rgb(255, 85, 0);
+  /* width: 10% ; */
+  opacity: 0.9;
+  text-align: center;
+  /* margin-left: 670px ; */
+  font-size: larger;
+}
+ 
+.body{
+  background-color:#112B3C; 
+  
+}
+.form{
+  /* padding: 60px 0; */
+  border-radius: 5px;
+}
+
+
+.name1{
+   display: flex;
+   justify-content: center;
+   
+   
+  
+    
+  
+}
+.fname{
+  width: 90% ;
+  margin-right: 1px ;
+}
+
+
+.sname{
+  width: 90% ;
+  margin-right:50px;
+}
+
+.date{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] ,input[type=email],
+input[type=number]
+{
+
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 25px;
+  /* flex-direction: column; */
+  border: none;
+  background: #f1f1f1;
+  
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  margin-top: 25px ;
+}
+
+.pay{
+
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.obtion{
+font-size: xx-small;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.registerbtn {
+  background-color: #ec7513;
+  color: white;
+  padding: 16px 20px;
+  margin-top: 20px;
+  margin-left: 140px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+.terms{
+
+  margin-left: 25px;
+}
+.signin {
+  margin-top: 5px;
+ font-size: small;
+  text-align: center;
+}
+
+
+/* footer */
+
+footer{
+  background-image: url(../img/footer.jpg);
+   width: 100%;
+}
+.footerflex{
+  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.footerflex ul{
+  padding: 50px;
+}
+.footerflex li{
+  padding: 40px;
+  color:white;
+  list-style: none;
+  transition: 1s;
+  font-size: larger;
+}
+.footerflex li:hover{
+  color: #F66B0E;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  
+}
+.socialMedia .fa-brands
+{
+  padding: 40px;
+  width: 60px;
+  font-size: xx-large;
+}
+.fa-square-facebook
+{
+  color: #3B5998;
+}
+.fa-instagram{
+  color: #C13584;
+}
+.fa-twitter{
+  color:#55ACEE;
+}
+.copyright p{
+  padding: 10px;
+  color: white;
+}
+
+

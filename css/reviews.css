@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#F66B0E;
+  /* height: 100vh; */
+  /* display:grid; */
+  /* place-items: center center; */
+  font-family: 'poppins',sans-serif;
+}
+/* -----------------------nav-bar------------------ */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 100px ;
+  background-color:#fff;
+}
+.logo img{
+  width: 50px;
+  
+}
+.navigation{
+  text-align: center;
+}
+.navigation a{
+  color: #2b2b2a;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 900;
+  padding: 10px;
+  display: inline-block;
+  transition: color 1s;
+}
+
+.navigation a:hover{
+  color:#F66B0E;
+}
+#log{
+  font-weight: 900;
+}
+#log a{
+  text-decoration: none;
+  transition: color 1s;
+  color:#2b2b2a;
+}
+#log a:hover{
+  color:#F66B0E;
+}
+.google{
+  border: none ;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* -------------------cards----------------------------------------- */
+.caption{
+  padding-top:140px ;
+  text-align: center;
+}
+.cards{
+  margin: auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  padding: 60px 0;
+  grid-gap: 40px;
+}
+.card{
+  background-color: #efefef;
+  border-radius: 30px;
+  box-shadow: 0 0 30xpx rgba (0,0,0,18);
+  transition: transform 1s;
+
+}
+.card.card7:hover{
+  color: orangered;
+}
+.card:hover{
+  transform:scale(1.1)
+}
+.checked{
+  color:orangered;
+}
+.fa{
+  font-size:30px;
+}
+.container{
+  position: relative;
+  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+img{
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+.container:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px 40px 0 0;
+  opacity: 0.7;
+}
+.details{
+  padding: 0px 20px;
+}
+.details>h3{
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+.details>p{
+  color: #151515c4;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+  .user-input-box:nth-child(2n){
+    justify-content: center;
+}
+.user-input-box{
+    padding-bottom: 50px;
+}
+.user-input-box label{
+    width: 95%;
+    color: #151515c4;
+    font-family:' poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.user-input-box input{
+    height: 40px;
+    width: 80%;
+    border-radius: 15px;
+    outline:none;
+    border: 1px solid orangered;
+    padding: 0 10px;
+    background: whitesmoke;
+}
+.user-input-box2 input{
+  height: 90px;
+  width: 80%;
+  border-radius: 15px;
+  outline:none;
+  border: 1px solid orangered;
+  padding: 0 10px;
+  background: whitesmoke;
+}
+.user-input-box2 label{
+  width: 95%;
+  color: #151515c4;
+  font-family:' poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.form-submit-btn input{
+  display: grid;
+  width: 150px;
+  height: 50px;
+  margin-left:70px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 19px;
+  color:whitesmoke;
+  background:rgb(255, 115, 0);
+  box-sizing:calc(70);
+}
+.form-submit-btn input:hover{
+  background: orangered;
+  color:white;
+}
+
+/* ------------------------footer---------------------- */
+
+
+footer{
+  background-image: url(../img/footer.jpg);
+   width: 100%;
+}
+.footerflex{
+  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.footerflex ul{
+  padding: 50px;
+}
+.footerflex li{
+  padding: 40px;
+  color:white;
+  list-style: none;
+  transition: 1s;
+  font-size: larger;
+}
+.footerflex li:hover{
+  color: #F66B0E;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  
+}
+.socialMedia .fa-brands
+{
+  padding: 40px;
+  width: 60px;
+  font-size: xx-large;
+}
+.fa-square-facebook
+{
+  color: #3B5998;
+}
+.fa-instagram{
+  color: #C13584;
+}
+.fa-twitter{
+  color:#55ACEE;
+}
+.copyright p {
+  font-size: 10px;
+  padding: 10px;
+  color: white;
+}
+
+

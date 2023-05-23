@@ -1,0 +1,174 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+body{
+  background-image: url(../img/trees.png);
+  background-color: #112b3ce6 ;
+  /* background-color:#fff7e9e9; */
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 100px ;
+  background-color:#fff;
+}
+.logo img{
+  width: 50px;
+  
+}
+.navigation{
+  text-align: center;
+}
+.navigation a{
+  color: #2b2b2a;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 900;
+  padding: 10px;
+  display: inline-block;
+  transition: color 1s;
+}
+
+.navigation a:hover{
+  color:#F66B0E;
+}
+#log{
+  font-weight: 900;
+}
+#log a{
+  text-decoration: none;
+  transition: color 1s;
+  color:#2b2b2a;
+}
+#log a:hover{
+  color:#F66B0E;
+}
+.google{
+  border: none ;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.worldwide{
+  padding: 150px 0;
+  width: 80%;
+  margin: auto;
+}
+.countries{
+  padding: 30px;
+  /* background-color:#112B3C; */
+}
+.container {
+  /* margin-top: 70px; */
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.continentName{
+  text-align: center;
+  font-size: xxx-large;
+  color:#F66B0E;
+}
+#Aisa{
+  border-radius: 5px;
+  background-color: #E8DFCA ;
+  margin-bottom: 35px;
+}
+#Europe{
+  border-radius: 5px;
+  background-color: #E8DFCA ;
+  margin-bottom: 35px;
+}
+#Africa{
+  border-radius: 5px;
+  background-color: #E8DFCA ;
+  margin-bottom: 35px; 
+}
+.countryName{
+  color:#F66B0E;
+  padding-bottom: 10px;
+} 
+.text{
+    width: 40%;
+    font-size: 15px;
+    padding: 70px;
+    color: #205375;
+    transition-delay: 2s;
+    transition: transform 1s; 
+    margin-right: 20px;
+    line-height: 25px
+}
+.text:hover{
+ transform: scale(1.1);
+}
+.img{
+    margin: 50px 20px 20px 20px; 
+  }
+
+div.img{
+  width: 45%;
+  padding: 5px;
+}
+.img img{
+  border-radius: 10px;
+  width: 100%;
+}
+hr{
+  padding: 20px grey;
+}
+footer{
+  background-image:url(../img/footer.jpg);
+   width: 100%;
+}
+.footerflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.footerflex ul{
+  padding: 50px;
+}
+.footerflex li{
+  padding: 40px;
+  color:white;
+  list-style: none;
+  transition: 1s;
+  font-size: larger;
+}
+.footerflex li:hover{
+  color: #F66B0E;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  
+}
+.socialMedia .fa-brands{
+  padding: 40px;
+  width: 60px;
+  font-size: xx-large;
+}
+.fa-square-facebook{
+  color: #3B5998;
+}
+.fa-instagram{
+  color: #C13584;
+}
+.fa-twitter{
+  color:#55ACEE;
+}
+.copyright p{
+  padding: 10px;
+  color: white;
+}

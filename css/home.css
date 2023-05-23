@@ -1,0 +1,342 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+body{
+    background-image: url(../img/header.jpg);
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 100px ;
+    background-color:#fff;
+}
+.logo img{
+    width: 50px;
+    
+}
+.navigation{
+    text-align: center;
+}
+.navigation a{
+    color: #2b2b2a;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding: 10px;
+    display: inline-block;
+    transition: color 1s;
+}
+
+.navigation a:hover{
+    color:#F66B0E;
+}
+#log{
+    font-weight: 900;
+}
+#log a{
+    text-decoration: none;
+    transition: color 1s;
+    color:#2b2b2a;
+}
+#log a:hover{
+    color:#F66B0E;
+    
+}
+.google{
+    border: none ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* ----------------------home---------------------------- */
+.banner{
+    background-image: url(../img/starry-sky-mountain-background-nature-remixed-media.jpg);
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner .caption{
+    
+    text-align: center; 
+}
+.banner .caption h1{
+    color:white;
+    font-size: 80px;
+    font-weight: 800;
+}
+.caption{
+    transition-delay: 2s;
+    transition: transform 1.5s;
+}
+.banner:hover .caption{
+    transform: scale(1.2);
+}
+.caption .orange{
+    color: #F66B0E;
+}
+
+/*-------------home2--------------------*/
+
+.home2{
+    /* margin-top: 30px; */
+    background-color: #F66B0E;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.captions h1{
+    transition: transform 1.4s , opacity 1s;
+    opacity: 0;
+}
+.home2:hover .captions h1{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.captions p{
+    transition: transform 1.4s  , opacity 1s 1.3s;
+    opacity: 0;
+}
+.home2:hover .captions p{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.home2img{
+    width: 50%;
+    padding-top: 80px;
+    transition: transform 1s;
+}
+.home2img img{
+    transition: transform 1s;
+}
+.home2:hover img{
+    transform: scale(1.1);
+}
+.home2 img{
+    width: 100%;
+}
+.home2 .captions{
+    text-align: center;
+    color: #EFEFEF;
+    width: 40%;
+}
+.home2 .captions h1 {
+    font-weight: 900;
+    padding: 20px;
+}
+.home2 .captions p {
+    padding: 20px;
+}
+/* ------------------------aboutus---------------------------*/
+
+.aboutcompany{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
+}
+.companyimg{
+    width: 35%;
+    padding-top: 80px;
+}
+.companyimg img{
+    width: 100%;
+}
+.companyhistory{
+    width: 40%;
+    text-align: center;
+}
+.companyhistory h1{
+    padding: 30px 0;
+    color: #F66B0E;
+    font-weight: 800;
+    transition: transform 1.4s , opacity 1s;
+    opacity: 0;
+}
+.aboutcompany:hover .companyhistory h1{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.companyhistory p{
+    color: rgb(32, 83, 117);
+    transition: transform 1.4s  , opacity 1s 1.3s;
+    opacity: 0;
+    line-height: 25px;
+}
+.aboutcompany:hover .companyhistory p{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.aboutcompany img{
+    transition: transform 1s;
+}
+.aboutcompany:hover img{
+    transform: scale(1.1);
+}
+
+
+/* ------------------------sendmessage------------- */
+
+#contactuscontiner{
+    background-color: #112B3C;
+    width: 100%;
+    color: #EFEFEF;
+    
+}
+.ourcontacts
+{
+    transition: transform 1s ;
+    padding: 35px;
+}
+.contacts-transition:hover .ourcontacts
+{
+    transform: scale(0.9);
+    
+}
+.ourcontacts h1{
+    padding: 25px;
+    color: #F66B0E;
+}
+.ourcontacts li{
+    list-style: none;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 40px;
+
+    padding-bottom: 15px;
+}
+.ourcontacts .fa{
+    color: #F66B0E;
+    border: solid transparent 10px ;
+    border-radius:50% ;
+}
+.sendmessage{
+    
+    
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.column1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 35%;
+}
+.row
+{
+    display: flex;
+}
+.row2
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 100%;
+}
+.inner{
+    padding: 40px;
+}
+
+.column1 label{
+    color: #EFEFEF;
+    padding-top: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.user{
+    padding: 15px;
+    border-radius: 5px;
+    border: #F66B0E 3px solid;
+    width: 100%;
+}
+.btn{
+    padding: 20px 10px;
+    margin-top: 15px;
+    color: #F66B0E;
+    border:  #F66B0E 3px solid;
+    border-radius:5px ;
+    background-color: #F66B0E;
+    color: white;
+    transition: background-color 1s,color 1s, border 1s;
+    font-size: medium;
+    font-weight: 800;
+}
+.btn:hover{
+    background-color: white;
+    color: #F66B0E;
+    border:  #F66B0E 3px solid
+}
+
+/*-------------------footer------------------------------*/
+footer{
+    background-image: url(../img/footer.jpg);
+     width: 100%;
+}
+.footerflex{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.footerflex ul{
+    padding: 50px;
+}
+.footerflex li{
+    padding: 40px;
+    color:white;
+    list-style: none;
+    transition: 1s;
+    font-size: larger;
+}
+.footerflex li:hover{
+    color: #F66B0E;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    
+}
+.socialMedia .fa-brands{
+    padding: 40px;
+    width: 60px;
+    font-size: xx-large;
+}
+.fa-square-facebook{
+    color: #3B5998;
+}
+.fa-instagram{
+    color: #C13584;
+}
+.fa-twitter{
+    color:#55ACEE;
+}
+.copyright p{
+    padding: 10px;
+    color: white;
+}

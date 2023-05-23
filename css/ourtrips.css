@@ -1,0 +1,204 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 100px ;
+    background-color:#fff;
+}
+.logo img{
+    width: 50px;
+    
+}
+.navigation{
+    text-align: center;
+}
+.navigation a{
+    color: #2b2b2a;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding: 10px;
+    display: inline-block;
+    transition: color 1s;
+}
+
+.navigation a:hover{
+    color:#F66B0E;
+}
+#log{
+    font-weight: 900;
+}
+#log a{
+    text-decoration: none;
+    transition: color 1s;
+    color:#2b2b2a;
+}
+#log a:hover{
+    color:#F66B0E;
+}
+.google{
+    border: none ;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cards h1 span{
+    color: #EFEFEF;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 60px;
+    display: block ;
+}
+.cards{
+    background-color: #112B3C;
+    background-image: url(../imgs/trees.png);
+    width: 100%;
+    height: 720px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 40px;
+    background-size: cover; 
+   
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url(../img/logo\ .png);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease ;
+}
+
+.card:hover{
+    transform: scale(1.1)
+}
+
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #EFEFEF;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    color: #EFEFEF;
+
+}
+.cap{
+    transition-delay: 2s;
+    transition: transform 1.5s;
+}
+.caption:hover .cap{
+    transform: scale(1.2);
+}
+.cont{
+    background-image: url(../img/trees.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F66B0E;
+}
+.video{
+    width: 50%;
+    padding: 20px 80px;
+
+}
+.column{
+    width: 40%;
+    padding-top:100px;
+    padding-right: 100px;
+    transition-delay: 2s;
+    transition: transform 1s; 
+    color: #EFEFEF;
+}
+.cont:hover .column{
+    transform: scale(1.2);
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    color: #EFEFEF;
+    background-color:#112B3C;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+.btn:hover{
+    background-color: #F66B0E;
+}
+
+
+footer{
+    background-image:url(../img/footer.jpg);
+     width: 100%;
+}
+.footerflex{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.footerflex ul{
+    padding: 50px;
+}
+.footerflex li{
+    padding: 40px;
+    color:white;
+    list-style: none;
+    transition: 1s;
+    font-size: larger;
+}
+.footerflex li:hover{
+    color: #F66B0E;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    
+}
+.socialMedia .fa-brands{
+    padding: 40px;
+    width: 60px;
+    font-size: xx-large;
+}
+.fa-square-facebook{
+    color: #3B5998;
+}
+.fa-instagram{
+    color: #C13584;
+}
+.fa-twitter{
+    color:#55ACEE;
+}
+.copyright p{
+    padding: 10px;
+    color: white;
+}
